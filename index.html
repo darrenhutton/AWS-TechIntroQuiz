@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>AWS Technical Essentials Quiz</title>
+    <title>AWS Technical Introduction Quiz</title>
 
     <link rel="stylesheet" type="text/css" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.4/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css/jsQuizEngine.css">
@@ -39,7 +39,7 @@
 			if (selectedQuiz) {
 			    $('#titleScreen').hide();
 			    $('#jsQuizEngine').show();
-			    quizEngine = jsQuizEngine($('#jsQuizEngine'), { quizUrl: 'quiz/AWSTechEssentialsQuiz_' + selectedQuiz + '.htm' });
+			    quizEngine = jsQuizEngine($('#jsQuizEngine'), { quizUrl: 'quiz/AWSTechIntroQuiz_' + selectedQuiz + '.htm' });
 			} else {
 			    $('#titleScreen').show();
 			    $('#jsQuizEngine, #navbar-intest').hide();
@@ -51,7 +51,7 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand" href="?">AWS Technical Essentials Quiz</a>
+                <a class="navbar-brand" href="?">AWS Technical Introduction Quiz</a>
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
@@ -71,7 +71,7 @@
 
         <div id="titleScreen">
             <div class="jumbotron">
-                <h1>AWS Technical Essentials Quiz</h1>
+                <h1>AWS Technical Introduction Quiz</h1>
                 <p>
                     This is a set of practice tests designed to provide a bit of feedback on your AWS knowledge - mostly based on <a href="https://aws.amazon.com/training/course-descriptions/essentials/">AWS Tech Essentials</a> </a>
                 </p>
@@ -90,11 +90,13 @@
                     <div id="collapseObj1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingObj1">
                         <div class="panel-body">
                           <p>
-                              Something...
+                              This section covers the basics of AWS
                           </p>
                             <p>
-                                <a href="?1.1">Design and implement applications for scale and resilience</a><br />
-                                Select a pattern, implement transient fault handling for services, respond to throttling, disable Application Request Routing (ARR) affinity
+                                <a href="?1.1">1.1 - What is cloud computing and what does it have to do with a book seller?</a><br />
+                            </p>
+                            <p>
+                                <a href="?1.2">1.2 - Getting started with AWS</a><br />
                             </p>
                         </div>
                     </div>
