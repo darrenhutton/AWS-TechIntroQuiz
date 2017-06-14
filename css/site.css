@@ -23,9 +23,3 @@
 #titleScreen > .jumbotron {
     background: #FF9900;
 }
-
-#titleScreen > .jumbotron p {
-    background: rgba(255, 255, 255, 0.7);
-    padding: 0.25em 0.5em;
-    border-radius: 0.5em;
-}
